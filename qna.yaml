@@ -1,6 +1,6 @@
 version: 3
 domain: time_travel
-created_by: Grant Shipley
+created_by: Nikhil Malvankar
 seed_examples:
   - context: |
       The ChronoVelocity X1 is a sports car manufactured by ChronoTech Motors for the global market from 1995 to 2002.
