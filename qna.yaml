@@ -1,0 +1,85 @@
+version: 3
+domain: time_travel
+created_by: Grant Shipley
+seed_examples:
+  - context: |
+      The ChronoVelocity X1 is a sports car manufactured by ChronoTech Motors for the global market from 1995 to 2002.
+      The car features butterfly doors and a titanium-alloy body.
+      It gained fame for its appearance as the time machine in the "Time Jumpers" film trilogy.
+    questions_and_answers:
+      - question: When was the ChronoVelocity X1 manufactured?
+        answer: The ChronoVelocity X1 was manufactured from 1995 to 2002.
+      - question: Who manufactured the ChronoVelocity X1?
+        answer: ChronoTech Motors manufactured the ChronoVelocity X1.
+      - question: What type of doors does the ChronoVelocity X1 have?
+        answer: Butterfly doors.
+  - context: |
+      An engine rebuild costs between $6,000 to $8,000.
+      A transmission rebuild costs between $3,000 to $4,500.
+      A brake system overhaul costs between $1,200 to $1,800.
+      Suspension work costs between $900 to $1,500.
+      Electrical system repairs cost between $700 to $1,200.
+      Titanium panel work costs between $1,500 to $2,500.
+      A butterfly door mechanism costs between $600 to $1,000.
+      Repairing an air conditioner costs between $400 and $700.
+      General maintenance is between $250 and $600 per service.
+      A Quantum Stabilizer costs $15,000,000 to repair.
+    questions_and_answers:
+      - question: How much does it cost to repair the transmission on a ChronoVelocity X1?
+        answer: Transmission repair costs between $3,000 and $4,500 for the ChronoVelocity X1.
+      - question: How much does it cost to repair the suspension on a ChronoVelocity X1?
+        answer: It costs between $900 and $1,500 to repair the suspension on a ChronoVelocity X1.
+      - question: How much does it cost to repair or replace a Quantum Stabilizer on a ChronoVelocity X1?
+        answer: It costs $15,000,000 to repair a Quantum Stabilizer.
+  - context: |
+      Production Years: 1995–2002
+      Body Style: 2-door coupe
+      Engine: 3.2 L V8 QuantumDrive engine
+      Transmission: 6-speed manual or 4-speed automatic
+      Horsepower: 310 hp
+      Torque: 270 lb-ft
+      Acceleration: 0–60 mph in approximately 6.5 seconds
+      Top Speed: 155 mph
+      Weight: 3,200 lb (1,450 kg)
+      Quantum Stabilizer fitted for time travel and costs $15,000,000
+    questions_and_answers:
+      - question: What were the production years of the ChronoVelocity X1?
+        answer: The car was in production from 1995 to 2002.
+      - question: How much horsepower does the ChronoVelocity X1 have?
+        answer: It has 310 horsepower.
+      - question: What is the Quantum Stabilizer used for in a ChronoVelocity X1?
+        answer: The Quantum Stabilizer enables time travel capabilities and costs $15,000,000.
+  - context: |
+      Here is a maintenance schedule.
+      Regular Oil Changes should be done every 4,000 miles or 4 months.
+      Brake Fluid should be changed every 2 years.
+      Transmission Fluid should be changed every 40,000 miles.
+      Coolant should be changed every 2 years.
+      You should regularly check the battery for corrosion and proper connection.
+      You should add new fluid to the Quantum Stabilizer on a regular basis.
+    questions_and_answers:
+      - question: How often should you change the oil on a ChronoVelocity X1?
+        answer: You should change the oil every 4,000 miles or every 4 months, whichever comes first.
+      - question: How often should you change the brake fluid on a ChronoVelocity X1?
+        answer: You should change the brake fluid every two years.
+      - question: What should you check on a ChronoVelocity X1 as part of a regular maintenance schedule?
+        answer: You should consider regular oil changes, brake fluid replacement, transmission fluid, battery, Quantum Stabilizer, and coolant.
+  - context: |
+      Here are some fun facts about the ChronoVelocity X1:
+      The ChronoVelocity X1 was initially designed as an electric supercar but was later modified with a QuantumDrive V8 engine for better performance.
+      The Time Jumpers special edition can time travel by accelerating to 98 miles per hour.
+      The Quantum Stabilizer, which enables time travel, costs $15,000,000.
+    questions_and_answers:
+      - question: How much does it cost to repair a Quantum Stabilizer on a ChronoVelocity X1?
+        answer: It costs $15,000,000 to repair or replace a Quantum Stabilizer.
+      - question: How fast do you need to be going to enable time travel on a ChronoVelocity X1?
+        answer: 98 miles per hour.
+      - question: What type of layout does a ChronoVelocity X1 have?
+        answer: It has a rear-engine layout.
+document_outline: |
+  Details and repair costs on a ChronoVelocity X1 sports car.
+document:
+  repo: https://github.com/nmalvankar/backtothefuture.git
+  commit: 47911f8906080037146c709d021c25b0c26f8435
+  patterns:
+    - data.md
